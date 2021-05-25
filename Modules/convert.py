@@ -67,15 +67,6 @@ def matrix2image(source,destination,matrix,pixels=1,):
     except:
         print('Image could not be converted. Check Path.')
         exit()
-    # for i in range(0,len(matrix)):
-    #     for j in range(0,len(matrix[0])):
-    #         if matrix[i][j]==1:
-    #             x=i+pixels;y=j+pixels
-    #             if not(pic[x][y][0] > pic[x][y][1] and pic[x][y][0] > pic[x][y][2]) and\
-    #             not(pic[x][y][1] > pic[x][y][0] and pic[x][y][1] > pic[x][y][2]):
-    #                 pic[x][y][0]=30
-    #                 pic[x][y][1]=144
-    #                 pic[x][y][2]=255
     for i in range(0,len(matrix)):
         for j in range(0,len(matrix[0])):
             if matrix[i][j]==1:
