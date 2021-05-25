@@ -5,9 +5,9 @@ import sys
 sys.setrecursionlimit(1500)
 
 #Set according to requirement
-source = 'Images/Unsolved/maze.png'
-solved = 'Images/Solved/Sol-maze.png'
-pixels = 1
+source = 'Images/Unsolved/maze_5px.png'
+solved = 'Images/Solved/Sol-maze_5px.png'
+pixels = 5
 
 #Not required to set
 Start  = 'S'
